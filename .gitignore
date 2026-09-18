@@ -1,5 +1,4 @@
 # Maven target directory
-target/
 
 # IDE files
 .vscode/
@@ -18,4 +17,3 @@ Thumbs.db
 
 
 # POM file
-pom.xml
