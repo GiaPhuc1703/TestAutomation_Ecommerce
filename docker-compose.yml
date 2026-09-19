@@ -1,14 +1,13 @@
 services:
   jenkins:
     image: myjenkins-automation
-    container_name: jenkins-blueocean
     restart: unless-stopped
 
     ports:
       - "8080:8080"
       - "50000:50000"
     volumes:
-      - jenkins_home:/var/jenkins_home
+      - jenkins-data:/var/jenkins_home
     networks:
       - automation
 
@@ -28,3 +27,6 @@ services:
 networks:
   automation:
     driver: bridge
+
+volumes:
+  jenkins-data:
