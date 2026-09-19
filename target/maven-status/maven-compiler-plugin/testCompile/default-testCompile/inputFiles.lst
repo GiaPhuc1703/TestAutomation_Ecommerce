@@ -1,3 +1,8 @@
-D:\Java_Preparation_For_Interview\src\test\java\dev\selenium\getting_started\FirstScript.java
-D:\Java_Preparation_For_Interview\src\test\java\dev\selenium\getting_started\OptionsTest.java
-D:\Java_Preparation_For_Interview\src\test\java\dev\selenium\getting_started\UsingSeleniumTest.java
+D:\AutomationTest\src\test\java\dev\selenium\configs\DriverFactory.java
+D:\AutomationTest\src\test\java\dev\selenium\hooks\Hooks.java
+D:\AutomationTest\src\test\java\dev\selenium\pages\LoginPage.java
+D:\AutomationTest\src\test\java\dev\selenium\runners\TestRunner.java
+D:\AutomationTest\src\test\java\dev\selenium\stepdefinitions\Ecommerce.java
+D:\AutomationTest\src\test\java\dev\selenium\utils\BasePage.java
+D:\AutomationTest\src\test\java\dev\selenium\utils\constant.java
+D:\AutomationTest\src\test\java\dev\selenium\utils\ElementUtils.java

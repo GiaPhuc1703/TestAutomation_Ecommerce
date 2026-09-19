@@ -1,0 +1,8 @@
+dev\selenium\pages\LoginPage.class
+dev\selenium\utils\ElementUtils.class
+dev\selenium\utils\BasePage.class
+dev\selenium\configs\DriverFactory.class
+dev\selenium\hooks\Hooks.class
+dev\selenium\runners\TestRunner.class
+dev\selenium\stepdefinitions\Ecommerce.class
+dev\selenium\utils\constant.class
