@@ -1,0 +1,30 @@
+services:
+  jenkins:
+    image: myjenkins-automation
+    container_name: jenkins-blueocean
+    restart: unless-stopped
+
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    volumes:
+      - jenkins_home:/var/jenkins_home
+    networks:
+      - automation
+
+  selenium-chrome:
+    image: selenium/standalone-chrome:latest
+    container_name: selenium-chrome
+    restart: unless-stopped
+
+    ports:
+      - "4444:4444"
+
+    shm_size: 2gb
+
+    networks:
+      - automation
+
+networks:
+  automation:
+    driver: bridge
